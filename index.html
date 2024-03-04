@@ -7,9 +7,17 @@
   <title>CodePen Demo</title>
 
   <meta name="robots" content="noindex">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.3/css/bootstrap.css">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.3/css/bootstrap.css">
 
   <style>
+     /* Height for devices larger than 576px */
+      @media (min-width: 992px) {
+        #carouselExampleIndicators {
+          margin-top: -58.59px;
+        }
+      }
+    
     body {
   padding: 0 50px 200px 50px;
   background: #333940;
@@ -81,7 +89,7 @@ color: #5b626b;
     }
   .c {
   position: fixed;
-  top: 46px;
+  top: -9px;
   width: 390px;
   height: 203px;
   z-index: 10;
@@ -165,14 +173,21 @@ h1, h2, h3, h4, h5, h6 {
     </div>
     
     
-    <div class="paroller carousel-item h-100"
-         style='background: url("https://unsplash.it/1200/600?image=1020") center no-repeat;'>
+    <div class="paroller carousel-item h-100">
+    
+    <div class='overlay'  id="kaltura_player_993464272"></div>
+<script type="text/javascript" src='https://cdnapisec.kaltura.com/p/4382003/embedPlaykitJs/uiconf_id/54253442?autoembed=true&targetId=kaltura_player_993464272&playlist_id=1_0rj5l720'></script>
+       </div>
     
     
-      </div>
+    <div class="paroller carousel-item h-100">
+    
+    <div class='overlay' id="kaltura_player_642748661"></div>
+<script type="text/javascript" src='https://cdnapisec.kaltura.com/p/4364393/embedPlaykitJs/uiconf_id/54253472?autoembed=true&targetId=kaltura_player_642748661&playlist_id=1_xn2qfc5p'></script>
     
     
-    <div class="paroller carousel-item h-100" style='background: url("https://unsplash.it/1200/600?image=1022") center repeat;'>
+    
+    
     </div>
     <div class="carousel-item h-100" data-paroller-factor="0.2" data-paroller-direction="horizontal" style='background: url("https://unsplash.it/1200/600?image=1008") center repeat;'>
       <p>data-paroller-factor="0.2" data-paroller-direction="horizontal"</p>
