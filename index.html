@@ -102,20 +102,37 @@ color: #5b626b;
   margin-top: -37%;
   width: 417px;
   height: 203px;
-  z-index: 11;
+  z-index: 100000;
   font-size: 87%;
   color: red;
   right: 548px;
   font-weight: bold;
 }
-  .carousel-control-prev, .carousel-control-next {
+ .y {
+  position: sticky;
+  margin-top: -37%;
+  width: 417px;
+  height: 203px;
+  z-index: 100000;
+  font-size: 87%;
+  color: red;
+  right: 548px;
+  font-weight: bold;
+} 
+    
+    
+    
+    
+    
+ .carousel-control-prev, .carousel-control-next {
   width: 34%;
   margin-top: -38%;
   color: red;
     }
-  .next {
+  next {
   width: 34%;
-  margin-top: -38%;
+  margin-top: -20%;
+  color: red;
 }
   
   body {
@@ -159,7 +176,28 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   background: #ce1f25;
 }
+  
+  #pos_1 {
+  left: 25px;
+  top: -5px;
+}
+.effet {
+  position: absolute;
+  width: 433px;
+  height: 116px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+  .effet2 {
+  position: absolute;
+  width: 1236px;
+  height: 116px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+  html, body {margin: 0; height: 100%; overflow: hidden}
   </style>
+  
   </head>
 
 <body>
@@ -209,18 +247,17 @@ h1, h2, h3, h4, h5, h6 {
       <p>data-paroller-factor="-0.3" data-paroller-direction="horizontal"</p>
     </div>
   </div>
-<div class="c carouselExampleIndicators">
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">Previous Playlist
+</div>
+
+<div id='pos_1' class="effet"> <a class="c carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">Previous Playlist
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+  </a></div><div id='pos_1' class="effet2">
+  <a class="y carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>Next Playlist
-  </a>
-</div></div>
-
-
+  </a></div>
+<div id='traitv'></div><div id='traith'></div>
 
   
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
